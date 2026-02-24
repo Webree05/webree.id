@@ -1,0 +1,1384 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth notranslate">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Goespi Global Charcoal - Global Premium Carbon Solutions</title>
+
+  <!-- SEO -->
+  <meta name="description"
+    content="Leading global trader of premium charcoal, coconut briquettes, and industrial carbon by Goespi Global Charcoal. Sustainable and high-quality energy solutions.">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Tailwind 4 CDN (Allows viewing without a local build server) -->
+  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <style type="text/tailwindcss">
+    @theme {
+      --color-primary-50: #fff9e6;
+      --color-primary-100: #ffedb3;
+      --color-primary-200: #ffd966;
+      --color-primary-300: #ffc233;
+      --color-primary-400: #eeb013;
+      --color-primary-500: #d4a017; /* Metallic Gold */
+      --color-primary-600: #b8860b;
+      --color-primary-700: #996a05;
+      --color-primary-800: #7a5200;
+      --color-primary-900: #5c3d00;
+
+      --color-charcoal-50: #ffffff;
+      --color-charcoal-900: #0a0a0a;
+      --color-charcoal-950: #050505;
+
+      --font-sans: 'Inter', system-ui, sans-serif;
+      --font-display: 'Outfit', sans-serif;
+
+      --shadow-premium: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+      --shadow-glow: 0 0 25px rgba(212, 160, 23, 0.4);
+    }
+
+    @layer base {
+      body {
+        @apply bg-charcoal-950 text-slate-300;
+      }
+    }
+
+    @layer utilities {
+      .glass {
+        background: rgba(255, 255, 255, 0.03);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+      }
+
+      .glass-light {
+        background: rgba(255, 255, 255, 0.7);
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+      }
+
+      .text-shadow-glow {
+        text-shadow: 0 0 10px rgba(59, 130, 246, 0.5);
+      }
+
+      .bg-noise {
+        background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+        opacity: 0.05;
+      }
+
+      .animate-float {
+        animation: float 6s ease-in-out infinite;
+      }
+
+      @keyframes float {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-20px); }
+      }
+
+      .no-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+      .no-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+
+      /* Hide Google Translate Bar and UI */
+      iframe.skiptranslate, 
+      .goog-te-banner-frame,
+      .goog-te-banner,
+      .goog-te-gadget-icon,
+      .goog-te-menu-value span:nth-child(2),
+      .goog-te-menu-value img {
+        display: none !important;
+      }
+      body {
+        top: 0px !important;
+        position: static !important;
+      }
+      .goog-te-gadget span {
+        display: none !important;
+      }
+      #google_translate_element {
+        display: none !important;
+      }
+      .goog-text-highlight {
+          background-color: transparent !important;
+          box-shadow: none !important;
+      }
+
+      /* Force Desktop Grid Layout to ignore Swiper styles */
+      @media (min-width: 768px) {
+        .product-swiper .swiper-wrapper,
+        .about-swiper .swiper-wrapper {
+          display: grid !important;
+          transform: none !important;
+          box-sizing: border-box !important;
+        }
+        .product-swiper .swiper-slide,
+        .about-swiper .swiper-slide {
+          height: auto !important;
+          width: auto !important;
+          margin: 0 !important;
+        }
+      }
+    }
+  </style>
+</head>
+
+<body class="font-sans antialiased bg-charcoal-950 text-slate-300 selection:bg-primary-500 selection:text-white">
+  <!-- Noise Overlay -->
+  <div class="fixed inset-0 pointer-events-none z-[9999] bg-noise"></div>
+
+  <div id="app" class="relative overflow-x-hidden">
+    <!-- Header -->
+    <header class="fixed w-full top-0 z-[100] transition-all duration-500 glass border-b border-white/5" id="navbar">
+      <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+        <div class="flex items-center space-x-3 group cursor-pointer">
+          <div
+            class="relative w-14 h-14 overflow-hidden rounded-xl shadow-glow group-hover:scale-110 transition-transform duration-500">
+            <img src="public/logo.jpg" alt="Goespi Global Charcoal Logo" class="w-full h-full object-cover">
+          </div>
+          <div class="flex flex-col">
+            <span class="text-xl font-black tracking-tighter text-white font-display uppercase leading-none">
+              <span data-t9n="nav_brand_1">GOESPI</span> <span data-t9n="nav_brand_2">GLOBAL</span>
+              <span class="text-primary-500" data-t9n="nav_brand_3">CHARCOAL</span>
+            </span>
+          </div>
+        </div>
+        <nav class="hidden md:flex items-center space-x-10 text-sm font-semibold tracking-wide uppercase">
+          <a href="#home" data-t9n="nav_home"
+            class="text-white hover:text-primary-400 transition-colors relative group py-2">
+            Home
+            <span
+              class="absolute bottom-0 left-0 w-full h-0.5 bg-primary-500 scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></span>
+          </a>
+          <a href="#products" data-t9n="nav_product"
+            class="hover:text-primary-400 transition-colors relative group py-2">
+            Product
+            <span
+              class="absolute bottom-0 left-0 w-full h-0.5 bg-primary-500 scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></span>
+          </a>
+          <a href="#about" data-t9n="nav_about" class="hover:text-primary-400 transition-colors relative group py-2">
+            About Us
+            <span
+              class="absolute bottom-0 left-0 w-full h-0.5 bg-primary-500 scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></span>
+          </a>
+          <a href="#locations" data-t9n="nav_locations"
+            class="hover:text-primary-400 transition-colors relative group py-2">
+            Locations
+            <span
+              class="absolute bottom-0 left-0 w-full h-0.5 bg-primary-500 scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></span>
+          </a>
+          <a href="production.html" data-t9n="nav_production"
+            class="hover:text-primary-400 transition-colors relative group py-2">
+            Our Production
+            <span
+              class="absolute bottom-0 left-0 w-full h-0.5 bg-primary-500 scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></span>
+          </a>
+        </nav>
+        <button id="menu-open" class="md:hidden text-white text-2xl focus:outline-none">
+          <i class="fa-solid fa-bars-staggered"></i>
+        </button>
+      </div>
+    </header>
+
+    <!-- Mobile Menu Overlay -->
+    <div id="mobile-menu"
+      class="fixed inset-0 z-[200] bg-charcoal-950/95 backdrop-blur-2xl transition-all duration-500 translate-x-full invisible">
+      <div class="flex flex-col h-full p-6">
+        <div class="flex justify-between items-center mb-10">
+          <div class="flex items-center space-x-3">
+            <div class="w-10 h-10 overflow-hidden rounded-xl">
+              <img src="public/logo.jpg" alt="Logo" class="w-full h-full object-cover">
+            </div>
+          </div>
+          <button id="menu-close" class="text-white text-2xl focus:outline-none">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+        <nav class="flex flex-col space-y-6 text-2xl font-black font-display uppercase">
+          <a href="#home" data-t9n="nav_home"
+            class="mobile-link text-white hover:text-primary-500 transition-colors">Home</a>
+          <a href="#products" data-t9n="nav_product"
+            class="mobile-link text-white hover:text-primary-500 transition-colors">Product</a>
+          <a href="#about" data-t9n="nav_about"
+            class="mobile-link text-white hover:text-primary-500 transition-colors">About Us</a>
+          <a href="#locations" data-t9n="nav_locations"
+            class="mobile-link text-white hover:text-primary-500 transition-colors">Locations</a>
+          <a href="production.html" data-t9n="nav_production"
+            class="mobile-link text-white hover:text-primary-500 transition-colors">Our Production</a>
+        </nav>
+        <div class="mt-auto">
+          <p data-t9n="footer_connect" class="text-slate-500 text-xs font-bold uppercase tracking-widest mb-4">Connect
+            with us</p>
+          <div class="flex gap-4">
+            <a href="https://www.tiktok.com/@goespicharcoal"
+              class="text-white text-xl hover:text-primary-500 transition-colors"><i
+                class="fa-brands fa-tiktok"></i></a>
+            <a href="https://www.instagram.com/goespicharcoal"
+              class="text-white text-xl hover:text-primary-500 transition-colors"><i
+                class="fa-brands fa-instagram"></i></a>
+            <a href="https://wa.me/6285808917717" class="text-white text-xl hover:text-primary-500 transition-colors"><i
+                class="fa-brands fa-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden">
+      <!-- Background Media -->
+      <div class="absolute inset-0 z-0">
+        <video autoplay muted loop playsinline class="w-full h-full object-cover opacity-40 scale-105">
+          <source src="https://assets.mixkit.co/videos/preview/mixkit-fire-burning-in-a-dark-room-34533-large.mp4"
+            type="video/mp4">
+        </video>
+        <div class="absolute inset-0 bg-gradient-to-t from-charcoal-950 via-charcoal-950/60 to-transparent"></div>
+        <div class="absolute inset-0 bg-gradient-to-b from-charcoal-950/40 via-transparent to-transparent"></div>
+      </div>
+
+      <div class="container mx-auto px-6 relative z-10">
+        <div class="text-center max-w-4xl mx-auto" data-aos="fade-up" data-aos-duration="1200">
+          <div
+            class="inline-flex items-center gap-2 px-3 py-1.5 md:px-4 md:py-2 rounded-full glass border-white/10 text-primary-400 text-[9px] md:text-xs font-bold uppercase tracking-[0.2em] mb-4 md:mb-8 animate-float">
+            <span class="w-1.5 h-1.5 md:w-2 md:h-2 rounded-full bg-primary-500 animate-pulse"></span>
+            <span data-t9n="hero_badge">Premium Export Quality</span>
+          </div>
+          <h1
+            class="text-3xl sm:text-5xl md:text-8xl font-black text-white mb-4 md:mb-8 leading-[1.1] md:leading-[0.9] font-display uppercase">
+            <span data-t9n="hero_title_1">Superior</span> <span
+              class="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-white drop-shadow-sm"
+              data-t9n="hero_title_2">Hardwood</span>
+            <br>
+            <span class="text-primary-400" data-t9n="hero_title_3">charcoal</span> <br class="md:hidden"> <span
+              data-t9n="hero_title_4">Global Supply</span>
+          </h1>
+          <p class="text-sm md:text-xl text-slate-300 mb-6 md:mb-12 font-medium max-w-2xl mx-auto leading-relaxed opacity-80 px-4"
+            data-t9n="hero_desc">
+            Pioneering the future of sustainable energy with premium charcoal products. Trusted by industries and BBQ
+            masters across 5 continents.
+          </p>
+          <div class="flex flex-col sm:flex-row items-center justify-center gap-4 md:gap-6 w-full px-4 sm:px-0">
+            <a href="#products"
+              class="w-full sm:w-auto group relative px-8 py-4 md:px-10 md:py-5 bg-primary-600 rounded-2xl text-white font-bold tracking-wider uppercase transition-all duration-500 hover:bg-primary-500 shadow-glow hover:-translate-y-1 overflow-hidden">
+              <span class="relative z-10 flex items-center justify-center gap-3 text-sm md:text-base">
+                <span data-t9n="hero_btn_explore">Explore Collection</span>
+                <i class="fa-solid fa-arrow-right group-hover:translate-x-2 transition-transform"></i>
+              </span>
+            </a>
+            <a href="#about" data-t9n="hero_btn_vision"
+              class="w-full sm:w-auto px-8 py-4 md:px-10 md:py-5 rounded-2xl text-white font-bold tracking-wider uppercase border border-white/20 glass hover:bg-white/10 transition-all duration-300 text-sm md:text-base text-center">
+              Our Vision
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Scroll Indicator -->
+      <div class="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-3 opacity-50">
+        <span data-t9n="hero_scroll" class="text-[10px] uppercase tracking-[0.3em] font-bold text-white">Scroll</span>
+        <div class="w-[2px] h-12 bg-gradient-to-b from-primary-500 to-transparent"></div>
+      </div>
+    </section>
+
+    <!-- About (Stats) Section -->
+    <section id="about" class="py-16 md:py-24 relative overflow-hidden">
+      <!-- Background Glow -->
+      <div
+        class="absolute top-0 left-1/2 -translate-x-1/2 w-[1000px] h-[600px] bg-primary-500/5 rounded-full blur-[120px] pointer-events-none">
+      </div>
+
+      <div class="container mx-auto px-6 relative z-10">
+        <!-- Section Header from Image -->
+        <div class="max-w-4xl mx-auto text-center mb-8 md:mb-20" data-aos="fade-up">
+          <span data-t9n="about_badge"
+            class="text-primary-500 font-bold uppercase tracking-[0.3em] text-[9px] md:text-xs">Reliability &
+            Excellence</span>
+          <h2 id="about-main-title"
+            class="text-2xl md:text-5xl font-black text-white mt-2 md:mt-4 mb-4 md:mb-8 font-display uppercase leading-tight">
+            <span data-t9n="about_title_1">Trusted Worldwide for Decades</span><br>
+            <span class="text-primary-500" data-t9n="about_title_2">Goespi Global Charcoal</span>
+          </h2>
+          <p data-t9n="about_desc" class="text-sm md:text-lg text-slate-400 leading-relaxed font-medium capitalize">
+            Indonesia is home to some of the world's finest hardwood, making it a key source of premium wood charcoal.
+            As the global market increasingly values eco-friendly and renewable energy sources, demand for natural
+            charcoal continues to grow significantly — especially for BBQ, restaurant, and industrial use.
+          </p>
+        </div>
+
+        <div class="about-section-relative group">
+          <div class="swiper about-swiper overflow-visible pb-8 pt-4 px-4 md:px-0">
+            <div class="swiper-wrapper md:grid md:grid-cols-3 md:gap-8 md:pt-0 md:pb-0">
+              <div
+                class="swiper-slide min-w-[85vw] md:min-w-0 snap-center glass p-6 md:p-10 rounded-2xl md:rounded-3xl group hover:border-primary-500/50 transition-all duration-500"
+                data-aos="fade-up">
+                <div
+                  class="w-12 h-12 md:w-16 md:h-16 bg-primary-500/10 rounded-2xl flex items-center justify-center text-primary-500 text-2xl md:text-3xl mb-4 md:mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all">
+                  <i class="fa-solid fa-globe"></i>
+                </div>
+                <h3 data-t9n="stat_reach_title"
+                  class="text-xl md:text-2xl font-bold text-white mb-2 md:mb-4 font-display uppercase tracking-tight">
+                  Worldwide Reach</h3>
+                <p data-t9n="stat_reach_desc" class="text-slate-400 leading-relaxed text-sm md:text-base">
+                  Goespi Global Charcoal has completed over 200+ successful international shipments, delivering
+                  premium
+                  Indonesian hardwood charcoal to global partners and BBQ masters worldwide.
+                </p>
+              </div>
+              <div
+                class="swiper-slide min-w-[85vw] md:min-w-0 snap-center glass p-6 md:p-10 rounded-2xl md:rounded-3xl group border-primary-500/30 shadow-glow transition-all duration-500"
+                data-aos="fade-up" data-aos-delay="100">
+                <div
+                  class="w-12 h-12 md:w-16 md:h-16 bg-primary-500 rounded-2xl flex items-center justify-center text-white text-2xl md:text-3xl mb-4 md:mb-8 group-hover:scale-110 group-hover:-rotate-6 transition-all">
+                  <i class="fa-solid fa-shield-halved"></i>
+                </div>
+                <h3 data-t9n="stat_quality_title"
+                  class="text-xl md:text-2xl font-bold text-white mb-2 md:mb-4 font-display uppercase tracking-tight">
+                  Quality Control</h3>
+                <p data-t9n="stat_quality_desc" class="text-slate-200 leading-relaxed text-sm md:text-base">
+                  With over 1000+ tons exported annually, Goespi Global Charcoal ensures consistent premium quality
+                  through rigorous laboratory checks and industrial-grade standards.
+                </p>
+              </div>
+              <div
+                class="swiper-slide min-w-[85vw] md:min-w-0 snap-center glass p-6 md:p-10 rounded-2xl md:rounded-3xl group hover:border-primary-500/50 transition-all duration-500"
+                data-aos="fade-up" data-aos-delay="200">
+                <div
+                  class="w-12 h-12 md:w-16 md:h-16 bg-primary-500/10 rounded-2xl flex items-center justify-center text-primary-500 text-2xl md:text-3xl mb-4 md:mb-8 group-hover:scale-110 group-hover:rotate-6 transition-all">
+                  <i class="fa-solid fa-leaf"></i>
+                </div>
+                <h3 data-t9n="stat_eco_title"
+                  class="text-xl md:text-2xl font-bold text-white mb-2 md:mb-4 font-display uppercase tracking-tight">
+                  100%
+                  Eco-Pure</h3>
+                <p data-t9n="stat_eco_desc" class="text-slate-400 leading-relaxed text-sm md:text-base">
+                  Meeting the growing global demand for renewable energy, Goespi Global Charcoal provides
+                  sustainable
+                  wood charcoal perfect for restaurants, BBQ, and industrial use.
+                </p>
+              </div>
+            </div>
+            <!-- Pagination -->
+            <div class="swiper-pagination md:hidden !bottom-0 !text-primary-500"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Products -->
+    <section id="products" class="py-16 md:py-32 relative overflow-hidden">
+      <div class="absolute top-0 left-0 w-full h-full bg-primary-500/5 -skew-y-3 origin-left z-0"></div>
+      <div
+        class="absolute -top-[500px] -right-[500px] w-[600px] md:w-[1000px] h-[600px] md:h-[1000px] bg-primary-600/10 rounded-full blur-[100px] md:blur-[150px] pointer-events-none">
+      </div>
+      <div
+        class="absolute -bottom-[500px] -left-[500px] w-[600px] md:w-[1000px] h-[600px] md:h-[1000px] bg-primary-400/5 rounded-full blur-[100px] md:blur-[150px] pointer-events-none">
+      </div>
+      <div class="container mx-auto px-6 relative z-10">
+        <div class="flex flex-col md:flex-row md:items-end justify-between mb-8 md:mb-20 gap-4 md:gap-8">
+          <div>
+            <span data-t9n="prod_badge"
+              class="text-primary-500 font-bold uppercase tracking-[0.3em] text-[9px] md:text-xs">Excellence</span>
+            <h2 class="text-3xl md:text-7xl font-black text-white mt-2 md:mt-4 font-display uppercase"><span
+                data-t9n="prod_title_1">Crafted</span> <span class="text-slate-600" data-t9n="prod_title_2">to</span>
+              <span data-t9n="prod_title_3">Burn</span>
+            </h2>
+          </div>
+          <a href="#" data-t9n="prod_link"
+            class="text-primary-500 font-bold uppercase tracking-widest text-xs md:text-sm flex items-center gap-2 md:gap-3 hover:gap-5 transition-all">
+            View All Catalogue <i class="fa-solid fa-arrow-right-long"></i>
+          </a>
+        </div>
+
+        <div class="product-section-relative group">
+          <div class="swiper product-swiper overflow-visible pb-12 pt-4 px-4 md:px-0">
+            <div class="swiper-wrapper md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-10 md:pt-0 md:pb-0">
+              <!-- Product Card 1: Halaban Charcoal -->
+              <div
+                class="swiper-slide w-[70vw] md:w-auto group relative bg-charcoal-900 rounded-[1.5rem] md:rounded-[2.5rem] p-2 md:p-4 border border-white/5 hover:border-primary-500/40 transition-all duration-700 overflow-hidden"
+                data-aos="zoom-in-up">
+                <div
+                  class="absolute inset-0 bg-primary-500/5 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
+                </div>
+                <div
+                  class="relative h-[180px] md:h-[400px] overflow-hidden rounded-[1.2rem] md:rounded-[2rem] bg-charcoal-950">
+                  <img src="public/halaban-charcoal.jpg"
+                    class="w-full h-full object-cover transition duration-1000 group-hover:scale-110 group-hover:rotate-2 opacity-80 group-hover:opacity-100"
+                    alt="Halaban Charcoal">
+                  <div
+                    class="absolute inset-0 bg-gradient-to-t from-charcoal-900 via-transparent to-transparent opacity-60">
+                  </div>
+                  <div class="absolute top-3 right-3 md:top-6 md:right-6">
+                    <span
+                      class="px-2.5 py-1 md:px-4 md:py-2 glass rounded-full text-[9px] md:text-[10px] font-black uppercase tracking-widest text-white border-white/20">Hardwood</span>
+                  </div>
+                </div>
+                <div class="p-4 md:p-8">
+                  <h4 data-t9n="prod_1_title"
+                    class="text-xl md:text-3xl font-black text-white mb-1.5 md:mb-2 font-display uppercase tracking-tight">
+                    Halaban
+                    Charcoal
+                  </h4>
+                  <div class="flex items-center gap-2 mb-3 md:mb-4">
+                    <i class="fa-solid fa-fire-flame-curved text-primary-500 text-xs md:text-sm"></i>
+                    <span data-t9n="prod_1_subtitle"
+                      class="text-[9px] md:text-[10px] font-bold uppercase tracking-wider text-primary-400">Premium
+                      Export
+                      Grade</span>
+                  </div>
+                  <p data-t9n="prod_1_desc"
+                    class="text-slate-400 mb-4 md:mb-8 font-medium leading-relaxed text-xs md:text-base">High-density
+                    hardwood charcoal from Halaban
+                    trees. Long burn time and consistent intense heat.</p>
+                  <div class="pt-4 md:pt-8 border-t border-white/5">
+                    <a href="https://wa.me/6285808917717?text=Hello%20I%20am%20interested%20in%20your%20charcoal%20products%20halaban%20charcoal"
+                      target="_blank"
+                      class="w-full py-2.5 md:py-4 bg-white text-charcoal-950 rounded-xl md:rounded-2xl flex items-center justify-center gap-2 md:gap-3 hover:bg-primary-500 hover:text-white transition-all font-bold uppercase tracking-widest text-[10px] md:text-sm">
+                      <i class="fa-solid fa-cart-shopping"></i>
+                      <span data-t9n="prod_buy">Pesan Sekarang</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Product Card 2: Tamarin Charcoal -->
+              <div
+                class="swiper-slide w-[70vw] md:w-auto group relative bg-charcoal-900 rounded-[1.5rem] md:rounded-[2.5rem] p-2 md:p-4 border border-white/5 hover:border-primary-500/40 transition-all duration-700 overflow-hidden"
+                data-aos="zoom-in-up" data-aos-delay="100">
+                <div
+                  class="absolute inset-0 bg-primary-500/5 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
+                </div>
+                <div
+                  class="relative h-[180px] md:h-[400px] overflow-hidden rounded-[1.2rem] md:rounded-[2rem] bg-charcoal-950">
+                  <img src="public/tamarin-charcoal.jpg"
+                    class="w-full h-full object-cover transition duration-1000 group-hover:scale-110 group-hover:-rotate-2 opacity-80 group-hover:opacity-100"
+                    alt="Tamarin Charcoal">
+                  <div
+                    class="absolute inset-0 bg-gradient-to-t from-charcoal-900 via-transparent to-transparent opacity-60">
+                  </div>
+                  <div class="absolute top-3 right-3 md:top-6 md:right-6">
+                    <span
+                      class="px-2.5 py-1 md:px-4 md:py-2 glass rounded-full text-[9px] md:text-[10px] font-black uppercase tracking-widest text-white border-white/20">Industrial</span>
+                  </div>
+                </div>
+                <div class="p-4 md:p-8">
+                  <h4 data-t9n="prod_2_title"
+                    class="text-xl md:text-3xl font-black text-white mb-1.5 md:mb-2 font-display uppercase tracking-tight">
+                    Tamarin
+                    Charcoal
+                  </h4>
+                  <div class="flex items-center gap-2 mb-3 md:mb-4">
+                    <i class="fa-solid fa-bolt text-primary-500 text-xs md:text-sm"></i>
+                    <span data-t9n="prod_2_subtitle"
+                      class="text-[9px] md:text-[10px] font-bold uppercase tracking-wider text-primary-400">High
+                      Calorific
+                      Value</span>
+                  </div>
+                  <p data-t9n="prod_2_desc"
+                    class="text-slate-400 mb-4 md:mb-8 font-medium leading-relaxed text-xs md:text-base">Dense charcoal
+                    made from tamarind hardwood.
+                    Slow-burning with minimal ash and sparks.</p>
+                  <div class="pt-4 md:pt-8 border-t border-white/5">
+                    <a href="https://wa.me/6285808917717?text=Hello%20I%20am%20interested%20in%20your%20charcoal%20products%20Tamarin%20Charcoal"
+                      target="_blank"
+                      class="w-full py-2.5 md:py-4 bg-white text-charcoal-950 rounded-xl md:rounded-2xl flex items-center justify-center gap-2 md:gap-3 hover:bg-primary-500 hover:text-white transition-all font-bold uppercase tracking-widest text-[10px] md:text-sm">
+                      <i class="fa-solid fa-cart-shopping"></i>
+                      <span data-t9n="prod_buy">Pesan Sekarang</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Product Card 3: Mix Charcoal -->
+              <div
+                class="swiper-slide w-[70vw] md:w-auto group relative bg-charcoal-900 rounded-[1.5rem] md:rounded-[2.5rem] p-2 md:p-4 border border-white/5 hover:border-primary-500/40 transition-all duration-700 overflow-hidden"
+                data-aos="zoom-in-up" data-aos-delay="200">
+                <div
+                  class="absolute inset-0 bg-primary-500/5 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
+                </div>
+                <div
+                  class="relative h-[180px] md:h-[400px] overflow-hidden rounded-[1.2rem] md:rounded-[2rem] bg-charcoal-950">
+                  <img src="public/mix-charcoal.jpg"
+                    class="w-full h-full object-cover transition duration-1000 group-hover:scale-110 group-hover:rotate-2 opacity-80 group-hover:opacity-100"
+                    alt="Mix Charcoal">
+                  <div
+                    class="absolute inset-0 bg-gradient-to-t from-charcoal-900 via-transparent to-transparent opacity-60">
+                  </div>
+                  <div class="absolute top-3 right-3 md:top-6 md:right-6">
+                    <span
+                      class="px-2.5 py-1 md:px-4 md:py-2 glass rounded-full text-[9px] md:text-[10px] font-black uppercase tracking-widest text-white border-white/20">Economical</span>
+                  </div>
+                </div>
+                <div class="p-4 md:p-8">
+                  <h4 data-t9n="prod_3_title"
+                    class="text-xl md:text-3xl font-black text-white mb-1.5 md:mb-2 font-display uppercase tracking-tight">
+                    Mix
+                    Charcoal</h4>
+                  <div class="flex items-center gap-2 mb-3 md:mb-4">
+                    <i class="fa-solid fa-layer-group text-primary-500 text-xs md:text-sm"></i>
+                    <span data-t9n="prod_3_subtitle"
+                      class="text-[9px] md:text-[10px] font-bold uppercase tracking-wider text-primary-400">Versatile
+                      Hardwood</span>
+                  </div>
+                  <p data-t9n="prod_3_desc"
+                    class="text-slate-400 mb-4 md:mb-8 font-medium leading-relaxed text-xs md:text-base">A specialized
+                    blend of Indonesian hardwoods.
+                    Efficient and versatile for various heating needs.</p>
+                  <div class="pt-4 md:pt-8 border-t border-white/5">
+                    <a href="https://wa.me/6285808917717?text=Hello%20I%20am%20interested%20in%20your%20charcoal%20products%20Mix%20Charcoal"
+                      target="_blank"
+                      class="w-full py-2.5 md:py-4 bg-white text-charcoal-950 rounded-xl md:rounded-2xl flex items-center justify-center gap-2 md:gap-3 hover:bg-primary-500 hover:text-white transition-all font-bold uppercase tracking-widest text-[10px] md:text-sm">
+                      <i class="fa-solid fa-cart-shopping"></i>
+                      <span data-t9n="prod_buy">Pesan Sekarang</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Product Card 4: Binchotan Charcoal -->
+              <div
+                class="swiper-slide w-[70vw] md:w-auto group relative bg-primary-600 rounded-[1.5rem] md:rounded-[2.5rem] p-2 md:p-4 border border-primary-400/50 transition-all duration-700 overflow-hidden"
+                data-aos="zoom-in-up">
+                <div
+                  class="relative h-[180px] md:h-[400px] overflow-hidden rounded-[1.2rem] md:rounded-[2rem] bg-charcoal-950">
+                  <img src="public/binchotan-charcoal.jpg"
+                    class="w-full h-full object-cover transition duration-1000 group-hover:scale-110 group-hover:-rotate-2"
+                    alt="Binchotan Charcoal">
+                  <div class="absolute inset-0 bg-gradient-to-t from-primary-900/80 via-transparent to-transparent">
+                  </div>
+                  <div class="absolute top-3 right-3 md:top-6 md:right-6">
+                    <span data-t9n="prod_4_tag"
+                      class="px-2.5 py-1 md:px-4 md:py-2 bg-white text-primary-600 rounded-full text-[9px] md:text-[10px] font-black uppercase tracking-widest shadow-xl">Luxury
+                      Grade</span>
+                  </div>
+                </div>
+                <div class="p-4 md:p-8">
+                  <h4 data-t9n="prod_4_title"
+                    class="text-xl md:text-3xl font-black text-white mb-1.5 md:mb-2 font-display uppercase tracking-tight">
+                    Binchotan</h4>
+                  <div class="flex items-center gap-2 mb-3 md:mb-4">
+                    <i class="fa-solid fa-crown text-white text-xs md:text-sm"></i>
+                    <span data-t9n="prod_4_subtitle"
+                      class="text-[9px] md:text-[10px] font-bold uppercase tracking-wider text-primary-100">Japanese
+                      White
+                      Charcoal</span>
+                  </div>
+                  <p data-t9n="prod_4_desc"
+                    class="text-primary-100 mb-4 md:mb-8 font-medium leading-relaxed text-xs md:text-base">The gold
+                    standard of charcoal. Smokeless,
+                    odorless, and burns at extreme temperatures for hours.</p>
+                  <div class="pt-4 md:pt-8 border-t border-white/20">
+                    <a href="https://wa.me/6285808917717?text=Hello%20I%20am%20interested%20in%20your%20charcoal%20products%20Binchotan%20Charcoal"
+                      target="_blank"
+                      class="w-full py-2.5 md:py-4 bg-white text-primary-600 rounded-xl md:rounded-2xl flex items-center justify-center gap-2 md:gap-3 hover:bg-charcoal-900 hover:text-white transition-all font-bold uppercase tracking-widest text-[10px] md:text-sm">
+                      <i class="fa-solid fa-cart-shopping"></i>
+                      <span data-t9n="prod_buy">Pesan Sekarang</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Product Card 5: Coconut Charcoal -->
+              <div
+                class="swiper-slide w-[70vw] md:w-auto group relative bg-charcoal-900 rounded-[1.5rem] md:rounded-[2.5rem] p-2 md:p-4 border border-white/5 hover:border-primary-500/40 transition-all duration-700 overflow-hidden"
+                data-aos="zoom-in-up" data-aos-delay="100">
+                <div
+                  class="absolute inset-0 bg-primary-500/5 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
+                </div>
+                <div
+                  class="relative h-[180px] md:h-[400px] overflow-hidden rounded-[1.2rem] md:rounded-[2rem] bg-charcoal-950">
+                  <img src="public/coconut-charcoal.png"
+                    class="w-full h-full object-cover transition duration-1000 group-hover:scale-110 group-hover:rotate-2 opacity-80 group-hover:opacity-100"
+                    alt="Coconut Charcoal">
+                  <div
+                    class="absolute inset-0 bg-gradient-to-t from-charcoal-900 via-transparent to-transparent opacity-60">
+                  </div>
+                  <div class="absolute top-3 right-3 md:top-6 md:right-6">
+                    <span
+                      class="px-2.5 py-1 md:px-4 md:py-2 glass rounded-full text-[9px] md:text-[10px] font-black uppercase tracking-widest text-white border-white/20">Sustainable</span>
+                  </div>
+                </div>
+                <div class="p-4 md:p-8">
+                  <h4 data-t9n="prod_5_title"
+                    class="text-xl md:text-3xl font-black text-white mb-1.5 md:mb-2 font-display uppercase tracking-tight">
+                    Coconut
+                    Charcoal
+                  </h4>
+                  <div class="flex items-center gap-2 mb-3 md:mb-4">
+                    <i class="fa-solid fa-leaf text-primary-500 text-xs md:text-sm"></i>
+                    <span data-t9n="prod_5_subtitle"
+                      class="text-[9px] md:text-[10px] font-bold uppercase tracking-wider text-primary-400">100%
+                      Eco-Friendly</span>
+                  </div>
+                  <p data-t9n="prod_5_desc"
+                    class="text-slate-400 mb-4 md:mb-8 font-medium leading-relaxed text-xs md:text-base">Premium
+                    briquettes
+                    made from coconut shells.
+                    Perfect for shisha and BBQ with zero chemicals.</p>
+                  <div class="pt-4 md:pt-8 border-t border-white/5">
+                    <a href="https://wa.me/6285808917717?text=Hello%20I%20am%20interested%20in%20your%20charcoal%20products%20Coconut%20Charcoal"
+                      target="_blank"
+                      class="w-full py-2.5 md:py-4 bg-white text-charcoal-950 rounded-xl md:rounded-2xl flex items-center justify-center gap-2 md:gap-3 hover:bg-primary-500 hover:text-white transition-all font-bold uppercase tracking-widest text-[10px] md:text-sm">
+                      <i class="fa-solid fa-cart-shopping"></i>
+                      <span data-t9n="prod_buy">Pesan Sekarang</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <!-- Custom Navigation Buttons -->
+          <div
+            class="swiper-button-prev md:hidden !text-primary-500 !w-10 !h-10 !bg-charcoal-900/80 !backdrop-blur-md !rounded-full !shadow-lg border border-white/10 after:!text-sm hover:!bg-white hover:!text-charcoal-900 transition-all">
+          </div>
+          <div
+            class="swiper-button-next md:hidden !text-primary-500 !w-10 !h-10 !bg-charcoal-900/80 !backdrop-blur-md !rounded-full !shadow-lg border border-white/10 after:!text-sm hover:!bg-white hover:!text-charcoal-900 transition-all">
+          </div>
+          <div class="swiper-pagination md:hidden !bottom-0 !text-primary-500"></div>
+        </div>
+      </div>
+  </div>
+  </section>
+
+  <!-- Global Connection -->
+  <section class="py-16 md:py-32 overflow-hidden">
+    <div class="container mx-auto px-6">
+      <div class="glass rounded-xl md:rounded-[3rem] p-3 md:p-24 relative overflow-hidden border-white/10 group">
+        <div
+          class="absolute -top-1/2 -right-1/4 w-[500px] md:w-[800px] h-[500px] md:h-[800px] bg-primary-500/10 rounded-full blur-[80px] md:blur-[120px] group-hover:bg-primary-500/20 transition-all duration-700">
+        </div>
+
+        <div class="relative z-10 grid grid-cols-2 gap-3 md:gap-20 items-center">
+          <div data-aos="fade-right">
+            <h2
+              class="text-[10px] sm:text-lg md:text-5xl lg:text-7xl font-black text-white font-display uppercase leading-tight mb-2 md:mb-8">
+              <span data-t9n="partner_title_1">Your</span> <span class="text-primary-500"
+                data-t9n="partner_title_2">Partner</span> <br><span data-t9n="partner_title_3">In Global Energy</span>
+            </h2>
+            <p data-t9n="partner_desc"
+              class="text-[8px] sm:text-xs md:text-lg lg:text-xl text-slate-300 mb-3 md:mb-12 leading-relaxed font-light">
+              We bridge the gap between sustainable Indonesian resources and global industrial demands. Our commitment
+              to excellence is forged in heat.
+            </p>
+            <div class="space-y-2 md:space-y-8">
+              <div class="flex gap-2 md:gap-6">
+                <div
+                  class="w-6 h-6 md:w-14 md:h-14 glass flex items-center justify-center text-primary-400 rounded-lg md:rounded-2xl shrink-0">
+                  <i class="fa-solid fa-anchor text-[10px] md:text-xl"></i>
+                </div>
+                <div>
+                  <h5 data-t9n="log_title" class="text-[8px] sm:text-xs md:text-xl font-bold text-white mb-0.5 md:mb-2">
+                    Maritime Logistics
+                  </h5>
+                  <p data-t9n="log_desc" class="text-slate-500 text-[6px] sm:text-[10px] md:text-base leading-tight">
+                    Fast and secure
+                    freighting through major global
+                    ports.</p>
+                </div>
+              </div>
+              <div class="flex gap-2 md:gap-6">
+                <div
+                  class="w-6 h-6 md:w-14 md:h-14 glass flex items-center justify-center text-primary-400 rounded-lg md:rounded-2xl shrink-0">
+                  <i class="fa-solid fa-file-contract text-[10px] md:text-xl"></i>
+                </div>
+                <div>
+                  <h5 data-t9n="trade_title"
+                    class="text-[8px] sm:text-xs md:text-xl font-bold text-white mb-0.5 md:mb-2">Compliant Trade</h5>
+                  <p data-t9n="trade_desc" class="text-slate-500 text-[6px] sm:text-[10px] md:text-base leading-tight">
+                    Full certification
+                    including MSDS, SHT, and CoA.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="relative" data-aos="fade-left">
+            <div class="relative rounded-xl md:rounded-[2rem] overflow-hidden shadow-2xl">
+              <img src="https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&q=80&w=1000"
+                class="w-full aspect-square object-cover" alt="Logistics">
+              <div class="absolute inset-0 bg-primary-900/20 mix-blend-overlay"></div>
+            </div>
+            <!-- Floating Stats -->
+            <div
+              class="absolute -bottom-2 -left-2 md:-bottom-10 md:-left-10 glass p-2 md:p-8 rounded-lg md:rounded-3xl animate-float">
+              <div class="text-sm md:text-5xl font-black text-white mb-0.5 md:mb-1">500+ <span data-t9n="stat_capacity"
+                  class="text-primary-500 font-bold tracking-tighter text-[6px] md:text-sm uppercase">Tons / Mo</span>
+              </div>
+              <p data-t9n="stat_capacity_label"
+                class="text-slate-400 font-bold uppercase tracking-widest text-[5px] md:text-[10px]">Current Export
+                Capacity</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact" class="pt-16 md:pt-32 pb-8 md:pb-12 relative overflow-hidden">
+    <!-- Background Shapes -->
+    <div
+      class="absolute bottom-0 left-0 w-full h-[300px] md:h-[500px] bg-gradient-to-t from-primary-950/50 to-transparent">
+    </div>
+
+    <div class="container mx-auto px-6 relative z-10">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 md:gap-20 mb-16 md:mb-32">
+        <div class="lg:col-span-2">
+          <div class="flex items-center space-x-3 md:space-x-4 mb-6 md:mb-10">
+            <div class="w-10 h-10 md:w-16 md:h-16 overflow-hidden rounded-xl md:rounded-2xl shadow-glow">
+              <img src="public/logo.jpg" alt="Goespi Global Charcoal Logo" class="w-full h-full object-cover">
+            </div>
+            <span class="text-lg md:text-2xl font-black tracking-tighter text-white font-display uppercase">GOESPI
+              GLOBAL <span class="text-primary-500">CHARCOAL</span></span>
+          </div>
+          <p data-t9n="footer_desc"
+            class="text-base md:text-2xl text-slate-400 max-w-sm mb-6 md:mb-12 font-medium leading-relaxed">
+            Igniting global trade with sustainable carbon solutions by Goespi Global Charcoal.
+          </p>
+          <div class="flex gap-3 md:gap-6">
+            <a href="https://www.tiktok.com/@goespicharcoal" target="_blank"
+              class="w-8 h-8 md:w-12 md:h-12 glass rounded-lg md:rounded-xl flex items-center justify-center hover:bg-primary-600 hover:text-white transition-all"><i
+                class="fa-brands fa-tiktok text-sm md:text-base"></i></a>
+            <a href="https://www.instagram.com/goespicharcoal" target="_blank"
+              class="w-8 h-8 md:w-12 md:h-12 glass rounded-lg md:rounded-xl flex items-center justify-center hover:bg-primary-600 hover:text-white transition-all"><i
+                class="fa-brands fa-instagram text-sm md:text-base"></i></a>
+            <a href="https://wa.me/6285808917717" target="_blank"
+              class="w-8 h-8 md:w-12 md:h-12 glass rounded-lg md:rounded-xl flex items-center justify-center hover:bg-primary-600 hover:text-white transition-all"><i
+                class="fa-brands fa-whatsapp text-sm md:text-base"></i></a>
+          </div>
+        </div>
+
+        <div class="lg:col-span-2">
+          <!-- Full Width Map Container -->
+          <div id="locations" class="mb-8 md:mb-12 group relative">
+            <div
+              class="relative overflow-hidden rounded-[2rem] md:rounded-[2.5rem] border border-white/10 shadow-glow transition-transform duration-500 group-hover:scale-[1.005] bg-charcoal-900">
+              <iframe width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                class="opacity-80 group-hover:opacity-100 transition-opacity md:h-[350px]"
+                src="https://maps.google.com/maps?q=6668%2B2HV%2C%20Tondomulyo%2C%20Gadungan%2C%20Kec.%20Puncu%2C%20Kabupaten%20Kediri%2C%20Jawa%20Timur%2064292%2C%20Indonesia&t=&z=15&ie=UTF8&iwloc=&output=embed">
+              </iframe>
+              <div
+                class="absolute inset-0 pointer-events-none bg-gradient-to-t from-charcoal-950/40 via-transparent to-transparent">
+              </div>
+            </div>
+          </div>
+
+          <!-- Info Grid Below Map -->
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
+            <div>
+              <h6 data-t9n="footer_hq"
+                class="text-white font-black uppercase tracking-widest text-[9px] md:text-sm mb-3 md:mb-8">
+                Headquarters
+              </h6>
+              <ul class="space-y-2 md:space-y-6 text-slate-400 font-medium text-[9px] md:text-base">
+                <li class="flex gap-2 md:gap-4">
+                  <i class="fa-solid fa-location-dot text-primary-500 mt-1"></i>
+                  6668+2HV, Tondomulyo, Gadungan, Kec. Puncu <br>Kabupaten Kediri, Jawa Timur 64292
+                </li>
+                <li class="flex gap-3 md:gap-4">
+                  <i class="fa-solid fa-phone text-primary-500 mt-1"></i>
+                  +62 858-0891-7717
+                </li>
+                <li class="flex gap-3 md:gap-4">
+                  <i class="fa-solid fa-envelope text-primary-500 mt-1"></i>
+                  trade@goespiglobalcharcoal.com
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <h6 data-t9n="footer_newsletter"
+                class="text-white font-black uppercase tracking-widest text-sm mb-6 md:mb-8">Newsletter</h6>
+              <p data-t9n="footer_newsletter_desc" class="text-slate-500 mb-6 md:mb-8 font-medium text-sm md:text-base">
+                Get the latest market insights
+                and global trade updates.</p>
+              <form class="flex gap-2 md:gap-3">
+                <input data-t9n-placeholder="footer_email_placeholder" type="email" placeholder="Your email"
+                  class="w-full bg-charcoal-900 border border-white/5 rounded-2xl px-4 py-3 md:px-6 md:py-4 outline-none focus:border-primary-500/50 transition-colors text-sm">
+                <button
+                  class="bg-primary-600 text-white px-4 md:px-6 rounded-2xl hover:bg-primary-500 transition-colors"><i
+                    class="fa-solid fa-paper-plane"></i></button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <div class="pt-8 md:pt-12 border-t border-white/5 flex flex-col md:flex-row justify-center items-center gap-6">
+          <span class="text-slate-600 text-[10px] md:text-sm font-bold uppercase tracking-widest text-center">&copy;
+            2026 Goespi Global Charcoal. <span data-t9n="footer_copy">All Energy reserved.</span></span>
+        </div>
+      </div>
+  </footer>
+  </div>
+
+  <!-- Floating Gmail Button -->
+  <a href="mailto:trade@goespiglobalcharcoal.com"
+    class="fixed bottom-24 right-6 md:bottom-28 md:right-8 z-[999] group flex items-center justify-center">
+    <!-- Pulse Effect -->
+    <div
+      class="absolute inset-0 bg-red-500 rounded-full animate-ping opacity-20 group-hover:opacity-40 transition-opacity">
+    </div>
+    <!-- Button Body -->
+    <div
+      class="relative w-12 h-12 md:w-16 md:h-16 bg-white text-red-600 rounded-full flex items-center justify-center shadow-[0_10px_30px_rgba(239,68,68,0.3)] group-hover:scale-110 group-hover:rotate-12 transition-all duration-500">
+      <i class="fa-solid fa-envelope text-xl md:text-3xl"></i>
+    </div>
+    <!-- Tooltip -->
+    <span
+      class="absolute right-16 md:right-20 bg-charcoal-900 text-white text-xs font-bold py-2 px-4 rounded-xl opacity-0 group-hover:opacity-100 transition-all duration-300 pointer-events-none whitespace-nowrap border border-white/10 translate-x-4 group-hover:translate-x-0 glass">
+      Email us
+    </span>
+  </a>
+
+  <!-- Floating Language Selector -->
+  <div class="fixed bottom-6 left-6 z-[999]" id="lang-selector-container">
+    <!-- Dropup Menu -->
+    <div id="lang-menu"
+      class="absolute bottom-full left-0 mb-4 w-40 md:w-48 glass rounded-2xl md:rounded-[2rem] border border-white/10 p-2 md:p-3 shadow-2xl transition-all duration-500 translate-y-10 opacity-0 pointer-events-none">
+      <div class="flex flex-col gap-1 md:gap-2">
+        <p class="text-[8px] md:text-[10px] font-black uppercase tracking-widest text-primary-500 px-3 py-1 opacity-70">
+          Select Language</p>
+
+        <button onclick="changeLanguage('id')"
+          class="flex items-center gap-3 px-3 py-2 rounded-xl hover:bg-primary-500/20 group/lang transition-all duration-300">
+          <img src="https://flagcdn.com/id.svg" class="w-5 h-3.5 md:w-6 md:h-4 object-cover rounded shadow-sm"
+            alt="Indonesia">
+          <span
+            class="text-[10px] md:text-xs font-bold text-white group-hover/lang:text-primary-400 transition-colors">Indonesia</span>
+        </button>
+        <button onclick="changeLanguage('ar')"
+          class="flex items-center gap-3 px-3 py-2 rounded-xl hover:bg-primary-500/20 group/lang transition-all duration-300">
+          <img src="https://flagcdn.com/sa.svg" class="w-5 h-3.5 md:w-6 md:h-4 object-cover rounded shadow-sm"
+            alt="Arab">
+          <span
+            class="text-[10px] md:text-xs font-bold text-white group-hover/lang:text-primary-400 transition-colors">Arab</span>
+        </button>
+        <button onclick="changeLanguage('en')"
+          class="flex items-center gap-3 px-3 py-2 rounded-xl hover:bg-primary-500/20 group/lang transition-all duration-300">
+          <img src="https://flagcdn.com/gb.svg" class="w-5 h-3.5 md:w-6 md:h-4 object-cover rounded shadow-sm"
+            alt="Inggris">
+          <span
+            class="text-[10px] md:text-xs font-bold text-white group-hover/lang:text-primary-400 transition-colors">Inggris</span>
+        </button>
+        <button onclick="changeLanguage('zh-CN')"
+          class="flex items-center gap-3 px-3 py-2 rounded-xl hover:bg-primary-500/20 group/lang transition-all duration-300">
+          <img src="https://flagcdn.com/cn.svg" class="w-5 h-3.5 md:w-6 md:h-4 object-cover rounded shadow-sm"
+            alt="China">
+          <span
+            class="text-[10px] md:text-xs font-bold text-white group-hover/lang:text-primary-400 transition-colors">China</span>
+        </button>
+        <button onclick="changeLanguage('es')"
+          class="flex items-center gap-3 px-3 py-2 rounded-xl hover:bg-primary-500/20 group/lang transition-all duration-300">
+          <img src="https://flagcdn.com/es.svg" class="w-5 h-3.5 md:w-6 md:h-4 object-cover rounded shadow-sm"
+            alt="Spanyol">
+          <span
+            class="text-[10px] md:text-xs font-bold text-white group-hover/lang:text-primary-400 transition-colors">Spanyol</span>
+        </button>
+        <button onclick="changeLanguage('ms')"
+          class="flex items-center gap-3 px-3 py-2 rounded-xl hover:bg-primary-500/20 group/lang transition-all duration-300">
+          <img src="https://flagcdn.com/my.svg" class="w-5 h-3.5 md:w-6 md:h-4 object-cover rounded shadow-sm"
+            alt="Malaysia">
+          <span
+            class="text-[10px] md:text-xs font-bold text-white group-hover/lang:text-primary-400 transition-colors">Malaysia</span>
+        </button>
+        <button onclick="changeLanguage('nl')"
+          class="flex items-center gap-3 px-3 py-2 rounded-xl hover:bg-primary-500/20 group/lang transition-all duration-300">
+          <img src="https://flagcdn.com/nl.svg" class="w-5 h-3.5 md:w-6 md:h-4 object-cover rounded shadow-sm"
+            alt="Belanda">
+          <span
+            class="text-[10px] md:text-xs font-bold text-white group-hover/lang:text-primary-400 transition-colors">Belanda</span>
+        </button>
+        <button onclick="changeLanguage('en')"
+          class="flex items-center gap-3 px-3 py-2 rounded-xl hover:bg-primary-500/20 group/lang transition-all duration-300">
+          <img src="https://flagcdn.com/us.svg" class="w-5 h-3.5 md:w-6 md:h-4 object-cover rounded shadow-sm"
+            alt="Amerika">
+          <span
+            class="text-[10px] md:text-xs font-bold text-white group-hover/lang:text-primary-400 transition-colors">Amerika</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Main Button -->
+    <button onclick="toggleLangMenu()"
+      class="relative w-12 h-12 md:w-16 md:h-16 bg-primary-600 text-white rounded-full flex items-center justify-center shadow-glow hover:scale-110 hover:rotate-12 transition-all duration-500 overflow-hidden">
+      <div
+        class="absolute inset-0 bg-gradient-to-tr from-primary-700 to-primary-500 opacity-0 hover:opacity-100 transition-opacity">
+      </div>
+      <i class="fa-solid fa-language text-xl md:text-3xl relative z-10"></i>
+    </button>
+  </div>
+
+
+
+  <!-- Floating WhatsApp Button -->
+  <a href="https://wa.me/6285808917717?text=Hello,%20I%20would%20like%20to%20ask%20about%20your%20product."
+    target="_blank" rel="noopener noreferrer"
+    class="fixed bottom-6 right-6 md:bottom-8 md:right-8 z-[999] group flex items-center justify-center">
+    <!-- Pulse Effect -->
+    <div
+      class="absolute inset-0 bg-green-500 rounded-full animate-ping opacity-20 group-hover:opacity-40 transition-opacity">
+    </div>
+    <!-- Button Body -->
+    <div
+      class="relative w-12 h-12 md:w-16 md:h-16 bg-[#25D366] text-white rounded-full flex items-center justify-center shadow-[0_10px_30px_rgba(37,211,102,0.4)] group-hover:scale-110 group-hover:-rotate-12 transition-all duration-500">
+      <i class="fa-brands fa-whatsapp text-xl md:text-3xl"></i>
+    </div>
+    <!-- Tooltip -->
+    <span
+      class="absolute right-16 md:right-20 bg-charcoal-900 text-white text-xs font-bold py-2 px-4 rounded-xl opacity-0 group-hover:opacity-100 transition-all duration-300 pointer-events-none whitespace-nowrap border border-white/10 translate-x-4 group-hover:translate-x-0 glass">
+      Chat with us
+    </span>
+  </a>
+
+  <!-- <script type="module" src="/src/main.js"></script> -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      once: true,
+      duration: 1000,
+      offset: 100,
+      easing: 'ease-out-expo'
+    });
+
+    // Premium Sticky Navbar
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 100) {
+        navbar.classList.add('py-3', 'bg-charcoal-950/90', 'backdrop-blur-xl');
+        navbar.classList.remove('py-4', 'glass');
+      } else {
+        navbar.classList.remove('py-3', 'bg-charcoal-950/90', 'backdrop-blur-xl');
+        navbar.classList.add('py-4', 'glass');
+      }
+    });
+
+    // Parallax Effect for Images
+    window.addEventListener('scroll', () => {
+      const scrolled = window.scrollY;
+      const parallaxImgs = document.querySelectorAll('.parallax-img');
+      parallaxImgs.forEach(img => {
+        const speed = 0.5;
+        img.style.transform = `translateY(${scrolled * speed}px)`;
+      });
+    });
+
+    // Mobile Menu Logic
+    const menuOpen = document.getElementById('menu-open');
+    const menuClose = document.getElementById('menu-close');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const mobileLinks = document.querySelectorAll('.mobile-link');
+
+    const toggleMenu = (show) => {
+      if (show) {
+        mobileMenu.classList.remove('translate-x-full', 'invisible');
+        document.body.style.overflow = 'hidden';
+      } else {
+        mobileMenu.classList.add('translate-x-full');
+        document.body.style.overflow = '';
+        setTimeout(() => {
+          if (mobileMenu.classList.contains('translate-x-full')) {
+            mobileMenu.classList.add('invisible');
+          }
+        }, 500);
+      }
+    };
+
+    menuOpen.addEventListener('click', () => toggleMenu(true));
+    menuClose.addEventListener('click', () => toggleMenu(false));
+    mobileLinks.forEach(link => {
+      link.addEventListener('click', () => toggleMenu(false));
+    });
+    // Manual Translation System
+    const t9n = {
+      en: {
+        nav_brand_1: "GOESPI", nav_brand_2: "GLOBAL", nav_brand_3: "CHARCOAL",
+        nav_home: "Home", nav_product: "Product", nav_about: "About Us", nav_locations: "Locations", nav_production: "Our Production",
+        footer_connect: "Connect with us", hero_badge: "Premium Export Quality",
+        hero_title_1: "Superior", hero_title_2: "Hardwood", hero_title_3: "Premium", hero_title_4: "Global Supply",
+        hero_scroll: "Scroll",
+        hero_desc: "Pioneering the future of sustainable energy with premium charcoal products. Trusted by industries and BBQ masters across 5 continents.",
+        hero_btn_explore: "Explore Collection", hero_btn_vision: "Our Vision",
+        about_badge: "Reliability & Excellence", about_title_1: "Trusted Worldwide for Decades", about_title_2: "Goespi Global Charcoal",
+        about_desc: "Indonesia is home to some of the world's finest hardwood, making it a key source of premium wood charcoal. As the global market increasingly values eco-friendly and renewable energy sources, demand for natural charcoal continues to grow significantly — especially for BBQ, restaurant, and industrial use.",
+        stat_reach_title: "Worldwide Reach", stat_reach_desc: "Goespi Global Charcoal has completed over 200+ successful international shipments, delivering premium Indonesian hardwood charcoal to global partners and BBQ masters worldwide.",
+        stat_quality_title: "Quality Control", stat_quality_desc: "With over 1000+ tons exported annually, Goespi Global Charcoal ensures consistent premium quality through rigorous laboratory checks and industrial-grade standards.",
+        stat_eco_title: "100% Eco-Pure", stat_eco_desc: "Meeting the growing global demand for renewable energy, Goespi Global Charcoal provides sustainable wood charcoal perfect for restaurants, BBQ, and industrial use.",
+        prod_badge: "Excellence", prod_title_1: "Crafted", prod_title_2: "to", prod_title_3: "Burn", prod_link: "View All Catalogue",
+        prod_buy: "Order Now", prod_1_title: "Halaban Charcoal", prod_1_subtitle: "Premium Export Grade", prod_1_desc: "High-density hardwood charcoal from Halaban trees. Long burn time and consistent intense heat.",
+        prod_2_title: "Tamarin Charcoal", prod_2_subtitle: "High Calorific Value", prod_2_desc: "Dense charcoal made from tamarind hardwood. Slow-burning with minimal ash and sparks.",
+        prod_3_title: "Mix Charcoal", prod_3_subtitle: "Versatile Hardwood", prod_3_desc: "A specialized blend of Indonesian hardwoods. Efficient and versatile for various heating needs.",
+        prod_4_title: "Binchotan", prod_4_subtitle: "Japanese White Charcoal", prod_4_desc: "The gold standard of charcoal. Smokeless, odorless, and burns at extreme temperatures for hours.",
+        prod_4_tag: "Luxury Grade",
+        prod_5_title: "Coconut Charcoal", prod_5_subtitle: "100% Eco-Friendly", prod_5_desc: "Premium briquettes made from coconut shells. Perfect for shisha and BBQ with zero chemicals.",
+        partner_title_1: "Your", partner_title_2: "Partner", partner_title_3: "In Global Energy",
+        partner_desc: "We bridge the gap between sustainable Indonesian resources and global industrial demands. Our commitment to excellence is forged in heat.",
+        log_title: "Maritime Logistics", log_desc: "Fast and secure freighting through major global ports.",
+        trade_title: "Compliant Trade", trade_desc: "Full certification including MSDS, SHT, and CoA.",
+        stat_capacity: "Tons / Mo", stat_capacity_label: "Current Export Capacity",
+        footer_desc: "Igniting global trade with sustainable carbon solutions by Goespi Global Charcoal.",
+        footer_hq: "Headquarters", footer_newsletter: "Newsletter", footer_newsletter_desc: "Get the latest market insights and global trade updates.",
+        footer_email_placeholder: "Your email", footer_copy: "All Rights Reserved."
+      },
+      id: {
+        nav_brand_1: "ARANG", nav_brand_2: "GLOBAL", nav_brand_3: "GOESPI",
+        nav_home: "Beranda", nav_product: "Produk", nav_about: "Tentang Kami", nav_locations: "Lokasi", nav_production: "Produksi Kami",
+        footer_connect: "Hubungi Kami", hero_badge: "Kualitas Ekspor Premium",
+        hero_title_1: "Arang", hero_title_2: "Kayu Keras", hero_title_3: "Premium", hero_title_4: "Pasokan Global",
+        hero_scroll: "Gulir",
+        hero_desc: "Memelopori masa depan energi berkelanjutan dengan produk arang premium. Dipercaya oleh industri dan ahli BBQ di 5 benua.",
+        hero_btn_explore: "Jelajahi Koleksi", hero_btn_vision: "Visi Kami",
+        about_badge: "Keandalan & Keunggulan", about_title_1: "Kepercayaan Global Selama Puluhan Tahun", about_title_2: "Goespi Global Charcoal",
+        about_desc: "Indonesia adalah rumah bagi kayu keras terbaik dunia, menjadikannya sumber utama arang kayu premium. Kami memenuhi permintaan global untuk energi ramah lingkungan bagi kebutuhan BBQ, restoran, dan industri.",
+        stat_reach_title: "Jangkauan Global", stat_reach_desc: "Goespi Global Charcoal telah menyelesaikan lebih dari 200+ pengiriman internasional ke seluruh dunia.",
+        stat_quality_title: "Kontrol Kualitas", stat_quality_desc: "Dengan ekspor tahunan melebihi 1000 ton, kami menjamin kualitas premium melalui standar laboratorium yang ketat.",
+        stat_eco_title: "100% Produk Alami", stat_eco_desc: "Menyediakan arang kayu berkelanjutan yang sempurna untuk restoran, BBQ, dan kebutuhan industri global.",
+        prod_badge: "Keunggulan", prod_title_1: "Dibuat", prod_title_2: "Secara", prod_title_3: "Sempurna", prod_link: "Lihat Semua Katalog",
+        prod_buy: "Pesan Sekarang", prod_1_title: "Arang Halaban", prod_1_subtitle: "Grade Ekspor Premium", prod_1_desc: "Arang kayu keras berkepadatan tinggi dari pohon Halaban. Durasi bakar lama dengan panas yang konsisten.",
+        prod_2_title: "Arang Tamarin", prod_2_subtitle: "Nilai Kalori Tinggi", prod_2_desc: "Arang padat dari kayu asam jawa. Terbakar perlahan dengan abu dan percikan minimal.",
+        prod_3_title: "Arang Mix", prod_3_subtitle: "Kayu Keras Serbaguna", prod_3_desc: "Campuran khusus kayu keras Indonesia yang efisien untuk berbagai kebutuhan pemanasan.",
+        prod_4_title: "Binchotan", prod_4_subtitle: "Arang Putih Jepang", prod_4_desc: "Standar emas arang dunia. Tanpa asap, tanpa bau, dan mampu mencapai suhu ekstrem.",
+        prod_4_tag: "Grade Mewah",
+        prod_5_title: "Arang Batok Kelapa", prod_5_subtitle: "100% Ramah Lingkungan", prod_5_desc: "Briket premium dari tempurung kelapa. Cocok untuk shisha dan BBQ tanpa bahan kimia.",
+        partner_title_1: "Mitra", partner_title_2: "Strategis", partner_title_3: "Energi Dunia",
+        partner_desc: "Kami menghubungkan sumber daya alam berkelanjutan Indonesia dengan permintaan industri global.",
+        log_title: "Logistik Maritim", log_desc: "Pengiriman cepat dan aman melalui jalur laut global utama.",
+        trade_title: "Perdagangan Legal", trade_desc: "Sertifikasi lengkap mencakup MSDS, SHT, dan laporan CoA.",
+        stat_capacity: "Ton / Bln", stat_capacity_label: "Kapasitas Export Saat Ini",
+        footer_desc: "Solusi karbon berkelanjutan untuk pasar internasional oleh Goespi Global Charcoal.",
+        footer_hq: "Kantor Pusat", footer_newsletter: "Berlangganan", footer_newsletter_desc: "Dapatkan pembaruan pasar dan berita perdagangan global terbaru.",
+        footer_email_placeholder: "Email Anda", footer_copy: "Hak Cipta Dilindungi."
+      },
+      ar: {
+        nav_brand_1: "GOESPI", nav_brand_2: "GLOBAL", nav_brand_3: "CHARCOAL",
+        nav_home: "الرئيسية", nav_product: "المنتجات", nav_about: "من نحن", nav_locations: "مواقعنا", nav_production: "إنتاجنا",
+        footer_connect: "تواصل معنا", hero_badge: "جودة تصدير ممتازة",
+        hero_title_1: "فحم", hero_title_2: "صلب", hero_title_3: "فائق", hero_title_4: "توريد عالمي",
+        hero_scroll: "تصفح",
+        hero_desc: "ريادة مستقبل الطاقة المستدامة بمنتجات الفحم الفاخرة. موثوق به من قبل الصناعات وخبراء الشواء في 5 قارات.",
+        hero_btn_explore: "استكشف المجموعة", hero_btn_vision: "رؤيتنا",
+        about_badge: "الموثوقية والتميز", about_title_1: "موثوق عالمياً منذ عقود", about_title_2: "Goespi Global Charcoal",
+        about_desc: "إندونيسيا هي موطن لبعض من أجود أنواع الأخشاب الصلبة في العالم، مما يجعلها المصدر الرئيسي لفحم الخشب الممتاز. نحن نلبي الطلب العالمي المتزايد على الطاقة المتجددة للشواء الصناعي والمطاعم.",
+        stat_reach_title: "وصول عالمي", stat_reach_desc: "أتمت Goespi Global Charcoal أكثر من 200 شحنة دولية ناجحة، لتوصيل الفحم الإندونيسي للشركاء العالميين.",
+        stat_quality_title: "مراقبة الجودة", stat_quality_desc: "مع تصدير أكثر من 1000 طن سنوياً، نضمن جودة متميزة ومستقرة من خلال معايير مخبرية صارمة.",
+        stat_eco_title: "100% طبيعي ونقي", stat_eco_desc: "توفير فحم خشب مستدام مثالي للمطاعم والشواء والأغراض الصناعية العالمية.",
+        prod_badge: "التميز", prod_title_1: "صُنع", prod_title_2: "ليحترق", prod_title_3: "بمثالية", prod_link: "عرض الكتالوج الكامل",
+        prod_buy: "اطلب الآن", prod_1_title: "فحم حلابة", prod_1_subtitle: "درجة تصدير ممتازة", prod_1_desc: "فحم خشب صلب عالي الكثافة من أشجار حلابة. وقت حرق طويل وحرارة شديدة متسقة.",
+        prod_2_title: "فحم تمر هندي", prod_2_subtitle: "قيمة حرارية عالية", prod_2_desc: "فحم كثيف مصنوع من خشب التمر الهندي. حرق بطيء مع الحد الأدنى من الرماد.",
+        prod_3_title: "فحم مختلط", prod_3_subtitle: "خشب صلب متعدد الاستعمالات", prod_3_desc: "مزيج متخصص من الأخشاب الصلبة الإندونيسية. فعال لمختلف احتياجات التدفئة.",
+        prod_4_title: "بينشوتان", prod_4_subtitle: "الفحم الأبيض الياباني", prod_4_desc: "المعيار الذهبي العالمي للفحم. عديم الدخان والرائحة ومناسب لدرجات الحرارة القصوى.",
+        prod_4_tag: "درجة فاخرة",
+        prod_5_title: "فحم جوز الهند", prod_5_subtitle: "100% صديق للبيئة", prod_5_desc: "قوالب ممتازة مصنوعة من قشور جوز الهند. مثالية للشيشة والشواء بدون كيماويات.",
+        partner_title_1: "شريككم", partner_title_2: "الاستراتيجي", partner_title_3: "للطاقة العالمية",
+        partner_desc: "نحن نربط الموارد المستدامة الإندونيسية بالمطالب الصناعية العالمية. التزامنا بالتميز لا يتزعزع.",
+        log_title: "الخدمات اللوجستية البحرية", log_desc: "شحن سريع وآمن عبر الموانئ البحرية العالمية الرئيسية.",
+        trade_title: "تجارة متوافقة", trade_desc: "شهادات كاملة بما في ذلك MSDS و SHT وتقارير CoA.",
+        stat_capacity: "طن / شهر", stat_capacity_label: "سعة التصدير الحالية",
+        footer_desc: "تحفيز التجارة العالمية بحلول الكربون المستدامة من Goespi Global Charcoal.",
+        footer_hq: "المقر الرئيسي", footer_newsletter: "النشرة الإخبارية", footer_newsletter_desc: "احصل على أحدث رؤى السوق وتحديثات التجارة العالمية.",
+        footer_email_placeholder: "بريدك الإلكتروني", footer_copy: "جميع الحقوق محفوظة."
+      },
+      "zh-CN": {
+        nav_brand_1: "GOESPI", nav_brand_2: "GLOBAL", nav_brand_3: "CHARCOAL",
+        nav_home: "首页", nav_product: "产品中心", nav_about: "关于我们", nav_locations: "业务网点", nav_production: "我们的生产",
+        footer_connect: "与我们联络", hero_badge: "优质出口级",
+        hero_title_1: "顶级", hero_title_2: "硬木", hero_title_3: "木炭", hero_title_4: "全球供应",
+        hero_scroll: "滚动",
+        hero_desc: "以优质木炭产品引领可持续能源的未来。深受全球五大洲工业客户和烧烤大师的信赖。",
+        hero_btn_explore: "探索系列", hero_btn_vision: "企业愿景",
+        about_badge: "可靠与卓越", about_title_1: "数十载深耕，全球信赖", about_title_2: "Goespi 全球木炭",
+        about_desc: "印度尼西亚拥有全球顶级的硬木资源，是高品质木炭的核心产地。我们致力于满足烧烤、餐饮和工业领域对环保可再生能源的强劲需求。",
+        stat_reach_title: "全球业务网", stat_reach_desc: "Goespi 成功完成了 200 余次国际交付，将优质印尼木炭运往全球各地合作伙伴。",
+        stat_quality_title: "严格质控", stat_quality_desc: "年出口量突破 1000 吨，通过严苛的实验室检测体系确保每一批次的产品品质。",
+        stat_eco_title: "100% 天然纯净", stat_eco_desc: "为全球市场提供契合可持续发展精神的优质木炭，适用于各类专业餐饮及工业场景。",
+        prod_badge: "卓越品质", prod_title_1: "匠心", prod_title_2: "锻造", prod_title_3: "持久燃烧", prod_link: "查看完整产品目录",
+        prod_buy: "立即咨询", prod_1_title: "哈拉班木炭", prod_1_subtitle: "顶级出口规格", prod_1_desc: "源自哈拉班树的高密度硬木炭，热量稳定分布，燃烧寿命极长。",
+        prod_2_title: "罗望子木炭", prod_2_subtitle: "超高热值", prod_2_desc: "罗望子树精心烧制，质地致密。燃烧缓慢，灰分极少，无火花。",
+        prod_3_title: "混合硬木炭", prod_3_subtitle: "通用型工业级", prod_3_desc: "优选多种印尼硬木混合。性价比卓越，可满足各类大规模加热及烧烤需求。",
+        prod_4_title: "备长炭", prod_4_subtitle: "日本级别白炭", prod_4_desc: "木炭界的黄金标准。无烟无味，能够在极高温度下持续数小时稳定燃烧。",
+        prod_4_tag: "奢华级别",
+        prod_5_title: "椰壳炭", prod_5_subtitle: "100% 生态环保", prod_5_desc: "由纯椰子壳制成的优质颗粒。不含化学添加。非常适合水烟、烧烤和专业烹饪。",
+        partner_title_1: "您的", partner_title_2: "全球能源", partner_title_3: "核心伙伴",
+        partner_desc: "我们无缝连接印尼丰富的自然资源与全球各行业的能源需求。卓越是我们不变的承诺。",
+        log_title: "专业海运物流", log_desc: "依托全球主力港口，提供快速、安全的国际贸易物流保障。",
+        trade_title: "合规贸易保障", trade_desc: "提供含 MSDS、SHT 及完整 CoA 检测报告在内的全套专业认证。",
+        stat_capacity: "吨 / 月", stat_capacity_label: "当前月出口能力",
+        footer_desc: "通过 Goespi Global Charcoal 的可持续碳科技解决方案，助力全球能源贸易。",
+        footer_hq: "总部地址", footer_newsletter: "时事通讯", footer_newsletter_desc: "订阅我们的邮件，获取最新市场趋势与全球贸易动态。",
+        footer_email_placeholder: "您的电子邮件", footer_copy: "版权所有，保留所有权利。"
+      },
+      es: {
+        nav_brand_1: "GOESPI", nav_brand_2: "GLOBAL", nav_brand_3: "CHARCOAL",
+        nav_home: "Inicio", nav_product: "Productos", nav_about: "Nosotros", nav_locations: "Ubicaciones", nav_production: "Producción",
+        footer_connect: "Contacte con nosotros", hero_badge: "Calidad de Exportación Premium",
+        hero_title_1: "Carbón", hero_title_2: "Duro", hero_title_3: "Superior", hero_title_4: "Suministro Global",
+        hero_scroll: "Desplazar",
+        hero_desc: "Liderando el futuro de la energía sostenible con productos de carbón premium. Confiado por industrias y maestros del BBQ en 5 continentes.",
+        hero_btn_explore: "Explorar Colección", hero_btn_vision: "Nuestra Visión",
+        about_badge: "Fiabilidad y Excelencia", about_title_1: "Confianza Global por Décadas", about_title_2: "Goespi Global Charcoal",
+        about_desc: "Indonesia alberga algunas de las maderas más finas del mundo, convirtiéndola en una fuente clave de carbón premium. Suministramos energía ecológica para BBQ y el sector industrial global.",
+        stat_reach_title: "Alcance Global", stat_reach_desc: "Goespi ha completado más de 200 envíos exitosos, entregando carbón indonesio premium a socios globales.",
+        stat_quality_title: "Control de Calidad", stat_quality_desc: "Con exportaciones anuales de más de 1000 toneladas, garantizamos una calidad superior mediante rigurosos estándares de laboratorio.",
+        stat_eco_title: "100% Eco-Natura", stat_eco_desc: "Carbón vegetal sostenible ideal para restaurantes, parrilladas y necesidades industriales a nivel mundial.",
+        prod_badge: "Excelencia", prod_title_1: "Hecho", prod_title_2: "Para", prod_title_3: "Perdurar", prod_link: "Ver Catálogo Completo",
+        prod_buy: "Pedir Ahora", prod_1_title: "Carbón Halaban", prod_1_subtitle: "Grado Exportación Premium", prod_1_desc: "Carbón de alta densidad de árboles Halaban. Largo tiempo de combustión y calor intenso constante.",
+        prod_2_title: "Carbón Tamarin", prod_2_subtitle: "Alto Valor Calorífico", prod_2_desc: "Carbón denso de madera de tamarindo. Combustión lenta con mínima ceniza y chispas.",
+        prod_3_title: "Mix Hardwood", prod_3_subtitle: "Madera Dura Versátil", prod_3_desc: "Mezcla especializada de maderas indonesias. Eficiente para diversas necesidades de calefacción industrial.",
+        prod_4_title: "Binchotan", prod_4_subtitle: "Carbón Blanco Japonés", prod_4_desc: "El estándar de oro. Sin humo, sin olor y arde a temperaturas extremas por horas.",
+        prod_4_tag: "Grado de Lujo",
+        prod_5_title: "Carbón de Coco", prod_5_subtitle: "100% Ecológico", prod_5_desc: "Briqueta premium de cáscara de coco. Perfecto para shisha y BBQ sin químicos añadidos.",
+        partner_title_1: "Su", partner_title_2: "Socio", partner_title_3: "En Energía Global",
+        partner_desc: "Conectamos los recursos sostenibles de Indonesia con las demandas industriales globales con excelencia innegable.",
+        log_title: "Logística Marítima", log_desc: "Transporte rápido y seguro a través de los principales puertos marítimos globales.",
+        trade_title: "Comercio Cumplido", trade_desc: "Certificación completa incluyendo MSDS, SHT y reportes CoA.",
+        stat_capacity: "Tons / Mes", stat_capacity_label: "Capacidad de Exportación Actual",
+        footer_desc: "Impulsando el comercio global con soluciones de carbono sostenibles por Goespi Global Charcoal.",
+        footer_hq: "Sede Principal", footer_newsletter: "Boletín", footer_newsletter_desc: "Reciba las últimas noticias del mercado y actualizaciones comerciales.",
+        footer_email_placeholder: "Su email", footer_copy: "Todos los derechos reservados."
+      },
+      ms: {
+        nav_brand_1: "ARANG", nav_brand_2: "GLOBAL", nav_brand_3: "GOESPI",
+        nav_home: "Utama", nav_product: "Produk", nav_about: "Tentang Kami", nav_locations: "Lokasi", nav_production: "Pengeluaran Kami",
+        footer_connect: "Hubungi Kami", hero_badge: "Kualiti Eksport Premium",
+        hero_title_1: "Arang", hero_title_2: "Kayu Keras", hero_title_3: "Terbaik", hero_title_4: "Bekalan Global",
+        hero_scroll: "Skrol",
+        hero_desc: "Merintis masa depan tenaga lestari dengan produk arang premium. Dipercayai oleh industri dan pakar BBQ di 5 benua.",
+        hero_btn_explore: "Teroka Koleksi", hero_btn_vision: "Visi Kami",
+        about_badge: "Kebolehpercayaan & Kecemerlangan", about_title_1: "Kepercayaan Seluruh Dunia Selama Berdekad", about_title_2: "Goespi Global Charcoal",
+        about_desc: "Indonesia adalah sumber utama arang kayu premium dunia. Kami membekalkan tenaga mesra alam yang memenuhi piawaian tinggi BBQ, restoran dan industri antarabangsa.",
+        stat_reach_title: "Jangkauan Global", stat_reach_desc: "Goespi Global Charcoal telah menyelesaikan lebih 200+ penghantaran antarabangsa ke seluruh dunia.",
+        stat_quality_title: "Kawalan Kualiti", stat_quality_desc: "Dengan kapasiti eksport tahunan melebihi 1000 tan, kami menjamin kualiti premium melalui piawaian makmal yang ketat.",
+        stat_eco_title: "100% Produk Semulajadi", stat_eco_desc: "Membekalkan arang kayu lestari yang sempurna untuk kegunaan restoran, BBQ dan industri global.",
+        prod_badge: "Kecemerlangan", prod_title_1: "Dibuat", prod_title_2: "Secara", prod_title_3: "Sempurna", prod_link: "Lihat Semua Katalog",
+        prod_buy: "Beli Sekarang", prod_1_title: "Arang Halaban", prod_1_subtitle: "Gred Eksport Premium", prod_1_desc: "Arang kayu keras berkepadatan tinggi dari pohon Halaban. Masa pembakaran lama dengan haba yang konsisten.",
+        prod_2_title: "Arang Tamarin", prod_2_subtitle: "Nilai Kalori Tinggi", prod_2_desc: "Arang padat dari kayu asam jawa. Terbakar perlahan dengan abu dan percikan yang minima.",
+        prod_3_title: "Arang Campuran", prod_3_subtitle: "Kayu Keras Serbaboleh", prod_3_desc: "Campuran khas kayu keras Indonesia yang efisien untuk pelbagai keperluan pemanasan.",
+        prod_4_title: "Binchotan", prod_4_subtitle: "Arang Putih Jepun", prod_4_desc: "Standard emas arang dunia. Tanpas asap, tanpa bau dan mampu mencapai suhu ekstrim.",
+        prod_4_tag: "Gred Mewah",
+        prod_5_title: "Arang Tempurung Kelapa", prod_5_subtitle: "100% Mesra Alam", prod_5_desc: "Briket premium dari tempurung kelapa. Sesuai untuk shisha dan BBQ tanpa bahan kimia.",
+        partner_title_1: "Rakan", partner_title_2: "Strategik", partner_title_3: "Tenaga Dunia",
+        partner_desc: "Kami menghubungkan sumber lestari Indonesia dengan permintaan industri global. Komitmen kami ditempa dalam kecemerlangan.",
+        log_title: "Logistik Maritim", log_desc: "Penghantaran pantas dan selamat melalui pelabuhan laut global utama.",
+        trade_title: "Perdagangan Legal", trade_desc: "Pensijilan penuh termasuk MSDS, SHT dan laporan CoA.",
+        stat_capacity: "Tan / Bulan", stat_capacity_label: "Kapasiti Eksport Semasa",
+        footer_desc: "Memacu perdagangan global dengan penyelesaian karbon lestari oleh Goespi Global Charcoal.",
+        footer_hq: "Ibu Pejabat", footer_newsletter: "Berlangganan", footer_newsletter_desc: "Dapatkan maklumat pasaran terkini dan kemas kini perdagangan global.",
+        footer_email_placeholder: "E-mel anda", footer_copy: "Semua Hak Terpelihara."
+      },
+      nl: {
+        nav_brand_1: "GOESPI", nav_brand_2: "GLOBAL", nav_brand_3: "CHARCOAL",
+        nav_home: "Home", nav_product: "Producten", nav_about: "Over Ons", nav_locations: "Locaties", nav_production: "Onze Productie",
+        footer_connect: "Contacteer ons", hero_badge: "Premium Exportkwaliteit",
+        hero_title_1: "Superieure", hero_title_2: "Hardhout", hero_title_3: "Houtskool", hero_title_4: "Wereldwijde Levering",
+        hero_scroll: "Scrollen",
+        hero_desc: "Pionieren in de toekomst van duurzame energie met hoogwaardige houtskoolproducten. Vertrouwd door de industrie en BBQ-meesters wereldwijd.",
+        hero_btn_explore: "Ontdek Collectie", hero_btn_vision: "Onze Visie",
+        about_badge: "Betrouwbaarheid & Uitmuntendheid", about_title_1: "Al decennia wereldwijd vertrouwd", about_title_2: "Goespi Global Charcoal",
+        about_desc: "Indonesië is de bakermat van het beste hardhout ter wereld, een cruciale bron voor premium houtskool. Wij leveren aan de groeiende vraag naar duurzame energie.",
+        stat_reach_title: "Wereldwijd Bereik", stat_reach_desc: "Goespi heeft meer dan 200 succesvolle internationale zendingen voltooid en levert aan wereldwijde partners.",
+        stat_quality_title: "Kwaliteitscontrole", stat_quality_desc: "Met een jaarlijkse export van meer dan 1000 ton garanderen we premium kwaliteit door strenge laboratoriumtests.",
+        stat_eco_title: "100% Eco-Pure", stat_eco_desc: "Duurzame houtskool die perfect is voor restaurants, BBQ en wereldwijde industriële behoeften.",
+        prod_badge: "Uitmuntendheid", prod_title_1: "Gemaakt", prod_title_2: "om te", prod_title_3: "Presteren", prod_link: "Bekijk de Catalogus",
+        prod_buy: "Bestel Nu", prod_1_title: "Halaban Houtskool", prod_1_subtitle: "Premium Exportkwaliteit", prod_1_desc: "Hoge dichtheid hardhoutskool van Halaban-bomen. Lange brandduur en constante intense hitte.",
+        prod_2_title: "Tamarinde Houtskool", prod_2_subtitle: "Hoge Calorische Waarde", prod_2_desc: "Dichte houtskool van tamarinde hardhout. Brandt langzaam met minimale as en vonken.",
+        prod_3_title: "Mix Hardhout", prod_3_subtitle: "Veelzijdig Hardhout", prod_3_desc: "Een gespecialiseerde mix van Indonesisch hardhout. Efficiënt voor diverse verwarmingsbehoeften.",
+        prod_4_title: "Binchotan", prod_4_subtitle: "Japans Wit Houtskool", prod_4_desc: "De gouden standaard. Rookloos, geurloos en brandt urenlang op extreme temperaturen.",
+        prod_4_tag: "Luxe Grade",
+        prod_5_title: "Kokosnoot Houtskool", prod_5_subtitle: "100% Milieuvriendelijk", prod_5_desc: "Premium briketten van kokosnootschalen. Perfect voor shisha and BBQ zonder chemicaliën.",
+        partner_title_1: "Uw Global", partner_title_2: "Energie", partner_title_3: "Partner",
+        partner_desc: "Wij verbinden duurzame Indonesische grondstoffen met de wereldwijde industriële vraag.",
+        log_title: "Maritieme Logistiek", log_desc: "Veilig en efficiënt transport via de grootste wereldhavens.",
+        trade_title: "Gecertificeerde Handel", trade_desc: "Volledige documentatie inclusief MSDS, SHT en CoA-rapporten.",
+        stat_capacity: "Ton / Maand", stat_capacity_label: "Huidige Exportcapaciteit",
+        footer_desc: "Wereldwijde groei door duurzame koolstofoplossingen van Goespi Global Charcoal.",
+        footer_hq: "Hoofdkantoor", footer_newsletter: "Nieuwsbrief", footer_newsletter_desc: "Blijf op de hoogte van marktinzichten en handelsupdates.",
+        footer_email_placeholder: "Uw e-mail", footer_copy: "Alle Rechten Voorbehouden."
+      }
+    };
+
+    function changeLanguage(langCode) {
+      // Save language preference
+      localStorage.setItem('website_lang', langCode);
+
+      const langData = t9n[langCode] || t9n['en'];
+
+      // Close menu
+      const menu = document.getElementById('lang-menu');
+      if (menu) {
+        menu.classList.add('translate-y-10', 'opacity-0', 'pointer-events-none');
+        menu.classList.remove('translate-y-0', 'opacity-100', 'pointer-events-auto');
+      }
+
+      // Update all elements with data-t9n
+      document.querySelectorAll('[data-t9n]').forEach(el => {
+        const key = el.getAttribute('data-t9n');
+        if (langData[key]) {
+          // Force set text content and prevent browser translation conflicts
+          if (el.textContent !== langData[key]) {
+            el.textContent = langData[key];
+          }
+          // Prevent standard translators from touching this
+          el.classList.add('notranslate');
+        }
+      });
+
+      // Update placeholders
+      document.querySelectorAll('[data-t9n-placeholder]').forEach(el => {
+        const key = el.getAttribute('data-t9n-placeholder');
+        if (langData[key]) {
+          el.placeholder = langData[key];
+        }
+      });
+
+      // Update HTML lang attribute
+      document.documentElement.lang = langCode;
+    }
+
+    function toggleLangMenu() {
+      const menu = document.getElementById('lang-menu');
+      if (!menu) return;
+
+      menu.classList.toggle('translate-y-10');
+      menu.classList.toggle('opacity-0');
+      menu.classList.toggle('pointer-events-none');
+
+      menu.classList.toggle('translate-y-0');
+      menu.classList.toggle('opacity-100');
+      menu.classList.toggle('pointer-events-auto');
+    }
+
+    // Close menu when clicking outside
+    document.addEventListener('click', (e) => {
+      const container = document.getElementById('lang-selector-container');
+      const menu = document.getElementById('lang-menu');
+      if (container && menu && !container.contains(e.target)) {
+        menu.classList.add('translate-y-10', 'opacity-0', 'pointer-events-none');
+        menu.classList.remove('translate-y-0', 'opacity-100', 'pointer-events-auto');
+      }
+    });
+
+    // Initialize Language on Load
+    window.addEventListener('DOMContentLoaded', () => {
+      const savedLang = localStorage.getItem('website_lang') || 'en';
+      changeLanguage(savedLang);
+    });
+
+    // Swiper Initialization for Mobile Only
+    let productSwiper;
+    let aboutSwiper;
+
+    function initSwipers() {
+      const isDesktop = window.innerWidth >= 768;
+
+      // Product Swiper
+      if (!isDesktop && !productSwiper) {
+        productSwiper = new Swiper(".product-swiper", {
+          effect: "coverflow",
+          grabCursor: true,
+          centeredSlides: true,
+          slidesPerView: "auto",
+          initialSlide: 1,
+          loop: true,
+          speed: 800,
+          coverflowEffect: {
+            rotate: 0,
+            stretch: 0,
+            depth: 100,
+            modifier: 2.5,
+            slideShadows: true,
+          },
+          autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+            pauseOnMouseEnter: true
+          },
+          pagination: {
+            el: ".product-swiper .swiper-pagination",
+            clickable: true,
+            dynamicBullets: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      } else if (isDesktop && productSwiper) {
+        try {
+          productSwiper.destroy(true, true);
+          productSwiper = undefined;
+          document.querySelector('.product-swiper').removeAttribute('style');
+          document.querySelector('.product-swiper .swiper-wrapper').removeAttribute('style');
+          document.querySelectorAll('.product-swiper .swiper-slide').forEach(slide => {
+            slide.removeAttribute('style');
+            slide.classList.remove('swiper-slide-active', 'swiper-slide-next', 'swiper-slide-prev', 'swiper-slide-visible');
+          });
+        } catch (e) { }
+      }
+
+      // About Swiper
+      if (!isDesktop && !aboutSwiper) {
+        aboutSwiper = new Swiper(".about-swiper", {
+          grabCursor: true,
+          centeredSlides: true,
+          slidesPerView: "auto",
+          spaceBetween: 16,
+          initialSlide: 1,
+          loop: true,
+          speed: 300,
+          touchRatio: 1.2,
+          autoplay: {
+            delay: 4000,
+            disableOnInteraction: false,
+            pauseOnMouseEnter: true
+          },
+          pagination: {
+            el: ".about-swiper .swiper-pagination",
+            clickable: true,
+            dynamicBullets: true,
+          },
+        });
+      } else if (isDesktop && aboutSwiper) {
+        try {
+          aboutSwiper.destroy(true, true);
+          aboutSwiper = undefined;
+          const aboutEl = document.querySelector('.about-swiper');
+          if (aboutEl) {
+            aboutEl.removeAttribute('style');
+            aboutEl.querySelector('.swiper-wrapper').removeAttribute('style');
+            aboutEl.querySelectorAll('.swiper-slide').forEach(slide => {
+              slide.removeAttribute('style');
+              slide.classList.remove('swiper-slide-active', 'swiper-slide-next', 'swiper-slide-prev', 'swiper-slide-visible');
+            });
+          }
+        } catch (e) { }
+      }
+    }
+
+    // Initialize on load
+    initSwipers();
+
+    // Check on resize
+    window.addEventListener('resize', () => {
+      initSwipers();
+    });
+
+  </script>
+</body>
+
+</html>
