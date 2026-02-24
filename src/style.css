@@ -26,7 +26,8 @@
 
 @layer base {
   body {
-    @apply bg-charcoal-950 text-slate-300;
+    background-color: var(--color-charcoal-950);
+    color: #cbd5e1;
   }
 }
 
