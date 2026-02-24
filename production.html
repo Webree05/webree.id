@@ -80,22 +80,24 @@
         0%, 100% { transform: translateY(0); }
         50% { transform: translateY(-20px); }
       }
-
-      /* Hide Google Translate Bar and UI */
-      iframe.skiptranslate, 
-      .goog-te-banner-frame,
-      .goog-te-banner,
-      .goog-te-gadget-icon,
-      .goog-te-menu-value span:nth-child(2),
-      .goog-te-menu-value img {
-        display: none !important;
-      }
-      body {
-        top: 0px !important;
-        position: static !important;
-      }
     }
   </style>
+    <style>
+        /* Hide Google Translate Bar and UI */
+        iframe.skiptranslate,
+        .goog-te-banner-frame,
+        .goog-te-banner,
+        .goog-te-gadget-icon,
+        .goog-te-menu-value span:nth-child(2),
+        .goog-te-menu-value img {
+            display: none !important;
+        }
+
+        body {
+            top: 0px !important;
+            position: static !important;
+        }
+    </style>
 </head>
 
 <body class="font-sans antialiased bg-charcoal-950 text-slate-300 selection:bg-primary-500 selection:text-white">

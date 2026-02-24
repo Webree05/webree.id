@@ -97,45 +97,52 @@
         -ms-overflow-style: none;
         scrollbar-width: none;
       }
+    }
+  </style>
+  <style>
+    /* Hide Google Translate Bar and UI */
+    iframe.skiptranslate,
+    .goog-te-banner-frame,
+    .goog-te-banner,
+    .goog-te-gadget-icon,
+    .goog-te-menu-value span:nth-child(2),
+    .goog-te-menu-value img {
+      display: none !important;
+    }
 
-      /* Hide Google Translate Bar and UI */
-      iframe.skiptranslate, 
-      .goog-te-banner-frame,
-      .goog-te-banner,
-      .goog-te-gadget-icon,
-      .goog-te-menu-value span:nth-child(2),
-      .goog-te-menu-value img {
-        display: none !important;
-      }
-      body {
-        top: 0px !important;
-        position: static !important;
-      }
-      .goog-te-gadget span {
-        display: none !important;
-      }
-      #google_translate_element {
-        display: none !important;
-      }
-      .goog-text-highlight {
-          background-color: transparent !important;
-          box-shadow: none !important;
+    body {
+      top: 0px !important;
+      position: static !important;
+    }
+
+    .goog-te-gadget span {
+      display: none !important;
+    }
+
+    #google_translate_element {
+      display: none !important;
+    }
+
+    .goog-text-highlight {
+      background-color: transparent !important;
+      box-shadow: none !important;
+    }
+
+    /* Force Desktop Grid Layout to ignore Swiper styles */
+    @media (min-width: 768px) {
+
+      .product-swiper .swiper-wrapper,
+      .about-swiper .swiper-wrapper {
+        display: grid !important;
+        transform: none !important;
+        box-sizing: border-box !important;
       }
 
-      /* Force Desktop Grid Layout to ignore Swiper styles */
-      @media (min-width: 768px) {
-        .product-swiper .swiper-wrapper,
-        .about-swiper .swiper-wrapper {
-          display: grid !important;
-          transform: none !important;
-          box-sizing: border-box !important;
-        }
-        .product-swiper .swiper-slide,
-        .about-swiper .swiper-slide {
-          height: auto !important;
-          width: auto !important;
-          margin: 0 !important;
-        }
+      .product-swiper .swiper-slide,
+      .about-swiper .swiper-slide {
+        height: auto !important;
+        width: auto !important;
+        margin: 0 !important;
       }
     }
   </style>
